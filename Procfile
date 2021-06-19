@@ -1,1 +1,1 @@
-web: gunicorn rcsf.wsgi --log-file -
+web: gunicorn ccMatgoza.wsgi --log-file -
