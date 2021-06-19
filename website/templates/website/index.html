@@ -1,0 +1,28 @@
+{% extends 'website/layout.html' %}
+
+{% block main %}
+    <div class="col-md-4">
+        <h2>Introdução</h2>
+        <p>No nosso espaço poderá:</p>
+        <ul>
+            <li>
+                Desfrutar de uma paisagem única.
+            </li>
+            <li>
+                Observar o belo Rio Codes, propriedade do programador deste site.
+            </li>
+            <li>
+                A gerente que dê mais ideias....
+            </li>
+        </ul>
+
+    </div>
+    <div class="col-md-4">
+        {% load static %}
+        <img src=" {% static 'website/images/esplanada.jpeg' %}" alt="" width="80%" height="80%">
+    </div>
+    <div class="col-md-4">
+        {% load static %}
+        <img src=" {% static 'website/images/hamburger.jpeg' %}" alt="" width="80%" height="80%">
+    </div>
+{% endblock main %}

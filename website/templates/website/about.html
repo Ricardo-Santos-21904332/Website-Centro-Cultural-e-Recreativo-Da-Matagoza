@@ -1,0 +1,26 @@
+{% extends 'website/layout.html' %}
+
+
+{% block main %}
+    <div class="col-md-8">
+        <h2>Sobre nós</h2>
+        <p>Somos uma associação recriativa localizada na aldeia de Matagoza.</p>
+    </div>
+    <div class="col-md-4">
+        {% load static %}
+        <img src=" {% static 'website/images/logo.jpg' %}" alt="" width="100%">
+    </div>
+    <div class="col-md-8" style="padding-top: 10px">
+        <h2>Onde nos encontramos</h2>
+        <p>A nossa associação encontra-se na Rua Da Escola, Matagosinha, Abrantes, Portugal</p>
+        <p>Coordenadas GPS 39°37'39.4"N 8°10'57.8"W</p>
+        <p>
+            <a href="https://www.google.pt/maps/place/39°37'39.5%22N+8°10'57.6%22W/@39.6276389,-8.1848554,857m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d39.6276288!4d-8.1826782?hl=pt-PT"
+               target="_blank">Link para o Google Maps</a></p>
+    </div>
+    <div class="col-md-4" style="padding-top: 10px">
+        {% load static %}
+        <img src=" {% static 'website/images/localizacao.png' %}" alt="" width="100%">
+    </div>
+{% endblock main %}
+      
