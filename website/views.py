@@ -10,5 +10,5 @@ def about(request):
     return render(request, "website/about.html")
 
 
-def tabelaPrecosComida(request):
-    return render(request, "website/tabelaPrecosComida.html")
+def comida(request):
+    return render(request, "website/comida.html")
