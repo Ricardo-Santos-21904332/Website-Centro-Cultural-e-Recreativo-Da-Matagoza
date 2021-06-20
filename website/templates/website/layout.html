@@ -25,7 +25,9 @@
 
 <body>
 
-<nav class="navbar navbar-expand-md navbar-dark fixed-top mobile-nofixed" style="background-color: dodgerblue">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top mobile-nofixed" style="background-color: dodgerblue;">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -67,15 +69,14 @@
 
 <main role="main">
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron" style="padding-bottom: 0;padding-top: 70px;background-color: orange">
+    <div class="jumbotron" style="padding-bottom: 20px;padding-top: 85px;background-color: orange">
         <div class="row">
             <div class="col-md-2">
                 {% load static %}
-                <img src=" {% static 'website/images/logo.jpg' %}" alt="" width="75%" height="80%">
+                <img src=" {% static 'website/images/logo.jpg' %}" alt="" width="60%" height="85%">
             </div>
-
-            <div class="col-md-10">
-                <h1 style="text-align: center">Centro Cultural e Recreativo da Matagoza</h1>
+            <div class="col-md-8">
+                <h1 style="text-align: left">Centro Cultural e Recreativo da Matagoza</h1>
             </div>
         </div>
     </div>
@@ -98,7 +99,17 @@
 </main>
 
 <footer class="container">
-    <p>&copy; RS 2021</p>
+    <div class="row">
+        <div class="col-md-10">
+            <p style="display: inline;">&copy; RS 2021 </p>
+        </div>
+        <div class="col-md-2">
+            <a href="https://www.facebook.com/pages/category/Sports---Recreation/ccmatagoza-103032358666282/"
+               class="fa fa-facebook" target="_blank" style="display: inline;font-size: 40px;"></a>
+            <a href="https://www.instagram.com/c.c.matagoza/?utm_medium=copy_link" class="fa fa-instagram"
+               target="_blank" style="display: inline;font-size: 40px; padding-left: 20px;color:#E1306C;"></a>
+        </div>
+    </div>
 </footer>
 
 <!-- Bootstrap core JavaScript
