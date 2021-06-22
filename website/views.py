@@ -12,3 +12,7 @@ def about(request):
 
 def comida(request):
     return render(request, "website/comida.html")
+
+
+def bebidas(request):
+    return render(request, "website/bebidas.html")
