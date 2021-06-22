@@ -3,6 +3,8 @@
 {% block main %}
     <div class="col-md-12">
         <h2 style="text-align: center;padding-bottom: 10px">Águas</h2>
+    </div>
+    <div class="col-md-8">
         <table class="table" style="border: solid">
             <tr>
                 <td style="text-align: center">Água (33 cl)</td>
@@ -14,6 +16,10 @@
                 <td style="text-align: center">Água com gás</td>
             </tr>
         </table>
+    </div>
+    <div class="col-md-4">
+        {% load static %}
+        <img src=" {% static 'website/images/agua.jpg' %}" alt="" width="90%" height="71%" style="border: 5px solid #555;">
     </div>
     <div class="col-md-12">
         <h2 style="text-align: center;padding-bottom: 10px">Sumos</h2>
