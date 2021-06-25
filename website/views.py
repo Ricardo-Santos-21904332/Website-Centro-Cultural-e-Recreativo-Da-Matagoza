@@ -17,5 +17,10 @@ def comida(request):
 def bebidas(request):
     return render(request, "website/bebidas.html")
 
+
 def snacks(request):
     return render(request, "website/snacks.html")
+
+
+def actividadesDesportivas(request):
+    return render(request, "website/actividadesDesportivas.html")

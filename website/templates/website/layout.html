@@ -36,26 +36,27 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href=" {% url 'website:index' %} ">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href=" {% url 'website:index' %} ">Início<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
                    aria-expanded="false">O que servimos</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href=" {% url 'website:comida' %} ">Comida</a>
-                    <a class="dropdown-item" href=" {% url 'website:bebidas' %} ">Bebidas</a>
+                    <a class="dropdown-item" href=" {% url 'website:comida' %}">Comida</a>
+                    <a class="dropdown-item" href=" {% url 'website:bebidas' %}">Bebidas</a>
                     <a class="dropdown-item" href=" {% url 'website:snacks' %}">Snacks</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Actividades Desportivas</a>
+                <a class="nav-link" href="{% url 'website:actividadesDesportivas' %}">Actividades Desportivas</a>
             </li>
-            <li class="nav-item">
+            <!--<li class="nav-item">
                 <a class="nav-link" href="#">As nossas instalações</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">A nossa história</a>
             </li>
+            -->
             <li class="nav-item">
                 <a class="nav-link" href=" {% url 'website:about' %} ">Sobre nós</a>
             </li>
