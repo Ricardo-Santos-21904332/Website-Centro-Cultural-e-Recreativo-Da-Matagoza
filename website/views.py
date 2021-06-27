@@ -24,3 +24,7 @@ def snacks(request):
 
 def actividadesDesportivas(request):
     return render(request, "website/actividadesDesportivas.html")
+
+
+def asNossasInstalacoes(request):
+    return render(request, "website/asNossasInstalacoes.html")
